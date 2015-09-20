@@ -75,7 +75,7 @@ public class Hw01a
                
                 if(convert2 >= options)                                         
                 {
-                    System.out.print(value2.substring(0, value.indexOf(" ")) + " is more than " + options + "\n");
+                    System.out.print(value2.substring(0, value2.indexOf(" ")) + " is more than " + options + "\n");
                 }
                 
                 if(convert < options)                                           //otherwise end program
